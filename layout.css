@@ -40,7 +40,6 @@
     /* hero image */
     .heroContainer {
       /*"linear-gradient" darkens image to make text easier to read */
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("GettyImages-924825146[1].jpg");
       height: 50%; 
       /* Position and center the image to scale nicely on all screens */
       background-position: center;
