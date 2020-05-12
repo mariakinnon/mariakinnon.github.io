@@ -1,1 +1,63 @@
-
+/* tool bar */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 20;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .active {
+      background-color: #4CAF50;
+    }
+    
+    body, html {
+      height: 100%;
+      font-family: helvetica;
+    }
+    /*.nav-hero{
+      position: relative;
+    }*/
+    /* hero image */
+    .heroContainer {
+      /*"linear-gradient" darkens image to make text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("GettyImages-924825146[1].jpg");
+      height: 50%; 
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /*text on hero image*/
+   .heroButton {
+     text-align: center;
+     vertical-align: bottom;
+     padding: 5%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+    }
+    
