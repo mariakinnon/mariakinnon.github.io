@@ -1,5 +1,5 @@
 /* tool bar */
-    ul {
+    #ul {
       list-style-type: none;
       margin: 0;
       padding: 20;
@@ -10,15 +10,15 @@
       width: 100%;
     }
     
-    li {
+    #li {
       float: left;
     }
     
-    li a:hover {
+    #li a:hover {
       background-color: #111;
     }
     
-    li a {
+    #li a {
       display: block;
       color: white;
       text-align: center;
@@ -26,11 +26,11 @@
       text-decoration: none;
     }
     
-    .active {
+    #.active {
       background-color: #4CAF50;
     }
     
-    body, html {
+    #body, html {
       height: 100%;
       font-family: helvetica;
     }
@@ -38,7 +38,7 @@
       position: relative;
     }*/
     /* hero image */
-    .heroContainer {
+    #.heroContainer {
       /*"linear-gradient" darkens image to make text easier to read */
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("GettyImages-924825146[1].jpg");
       height: 50%; 
@@ -50,7 +50,7 @@
     }
     
     /*text on hero image*/
-   .heroButton {
+   #.heroButton {
      text-align: center;
      vertical-align: bottom;
      padding: 5%;
