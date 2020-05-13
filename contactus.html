@@ -12,7 +12,7 @@
     * {box-sizing: border-box}
 /* Full-width input fields */
   input[type=text], input[type=number] {
-  width: 100%;
+  width: 50%;
   padding: 15px;
   float: center;
   margin: 5px 0 22px 0;
@@ -71,26 +71,25 @@ button:hover {
 <br><br>
 
 <form action="action_page.php" style="border:1px solid #ccc">
-  <div class="container">
-    <h1>Get in touch</h1>
-
-    <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter name" name="name" required>
-
-    <label for="company"><b>Company Name</b></label>
-    <input type="text" placeholder="Enter Company Name" name="comp-name" required>
+  <fieldset>
+    <legend>Get in touch</legend>
     
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter name" name="name" required>
+
+      <label for="company"><b>Company Name</b></label>
+      <input type="text" placeholder="Enter Company Name" name="comp-name" required>
     
-    <label for="phone num"><b>Phone Number</b></label>
-    <input type="number" placeholder="Enter Phone Number" name="phone-num" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+    
+      <label for="phone num"><b>Phone Number</b></label>
+      <input type="number" placeholder="Enter Phone Number" name="phone-num" required>
   
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <!--<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>--> 
 
-    <div class="clearfix">
       <button type="submit" class="submitbtn">Submit</button>
-    </div>
-  </div>
+  </fieldset>  
 </form>
+  
 </body>
